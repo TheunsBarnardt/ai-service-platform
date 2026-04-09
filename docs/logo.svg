@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" fill="none">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left node (AI Agent 1) -->
+  <circle cx="60" cy="100" r="35" fill="url(#grad1)" opacity="0.9"/>
+  <circle cx="60" cy="100" r="25" fill="none" stroke="white" stroke-width="2" opacity="0.6"/>
+  <circle cx="60" cy="100" r="12" fill="white" opacity="0.9"/>
+  <circle cx="60" cy="100" r="6" fill="url(#grad1)"/>
+
+  <!-- Connection lines (neural network style) -->
+  <line x1="95" y1="85" x2="135" y2="70" stroke="url(#grad3)" stroke-width="2" opacity="0.5"/>
+  <line x1="95" y1="100" x2="135" y2="100" stroke="url(#grad3)" stroke-width="2.5" opacity="0.7"/>
+  <line x1="95" y1="115" x2="135" y2="130" stroke="url(#grad3)" stroke-width="2" opacity="0.5"/>
+
+  <!-- Center hub (Platform) -->
+  <rect x="135" y="55" width="90" height="90" rx="18" fill="url(#grad2)" opacity="0.95"/>
+  <rect x="145" y="65" width="70" height="70" rx="12" fill="none" stroke="white" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Lightning bolt (AI power) -->
+  <path d="M172 75 L165 100 L175 100 L168 125 L192 95 L180 95 L188 75 Z" fill="white" opacity="0.95"/>
+
+  <!-- Right connection lines -->
+  <line x1="225" y1="70" x2="265" y2="85" stroke="url(#grad3)" stroke-width="2" opacity="0.5"/>
+  <line x1="225" y1="100" x2="265" y2="100" stroke="url(#grad3)" stroke-width="2.5" opacity="0.7"/>
+  <line x1="225" y1="130" x2="265" y2="115" stroke="url(#grad3)" stroke-width="2" opacity="0.5"/>
+
+  <!-- Right node (AI Agent 2) -->
+  <circle cx="300" cy="100" r="35" fill="url(#grad1)" opacity="0.9"/>
+  <circle cx="300" cy="100" r="25" fill="none" stroke="white" stroke-width="2" opacity="0.6"/>
+  <circle cx="300" cy="100" r="12" fill="white" opacity="0.9"/>
+  <circle cx="300" cy="100" r="6" fill="url(#grad1)"/>
+
+  <!-- Orbital dots around center -->
+  <circle cx="140" cy="60" r="4" fill="#a78bfa" opacity="0.7"/>
+  <circle cx="220" cy="60" r="4" fill="#a78bfa" opacity="0.7"/>
+  <circle cx="140" cy="140" r="4" fill="#a78bfa" opacity="0.7"/>
+  <circle cx="220" cy="140" r="4" fill="#a78bfa" opacity="0.7"/>
+
+  <!-- Revenue flow arrows (circular) -->
+  <path d="M180 45 Q180 35 170 35 Q155 35 155 45" fill="none" stroke="#10b981" stroke-width="2" opacity="0.6"/>
+  <polygon points="155,42 151,48 159,48" fill="#10b981" opacity="0.6"/>
+
+  <!-- Text: AI Service Platform -->
+  <text x="360" y="85" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="42" font-weight="700" fill="#1e1b4b" letter-spacing="-1">
+    AI Service
+  </text>
+  <text x="360" y="130" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="42" font-weight="700" fill="url(#grad3)" letter-spacing="-1">
+    Platform
+  </text>
+  <text x="362" y="158" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="15" fill="#6b7280" letter-spacing="3">
+    AI SELLING TO AI
+  </text>
+</svg>
