@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+.git/
+.env
+.env.*
+*.log
+logs/
+coverage/
+.nyc_output/
+*.md
+.vscode/
+.idea/
